@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>GS Link</title>
+
+     <!-- TAILWIND CSS -->
+     <link rel="stylesheet" href="./assets/css/tailwind.css">
+</head>
+
+<body>
+     <header>
+          <div class="flex items-center justify-between bg-secondary px-4 py-2">
+               <div class="flex gap-5">
+                    <button class="flex items-center gap-1">
+                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                              <path
+                                   d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                         </svg>
+                         <span>中国大陆</span>
+                    </button>
+                    <div class="flex items-center gap-0.5">
+                         <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                              <path
+                                   d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z" />
+                         </svg>
+                         <span>亲，请登录</span>
+                    </div>
+               </div>
+               <div class="flex items-center gap-9">
+                    <div class="flex items-center gap-4">
+                         <a href="/cart.html" class="flex items-center gap-1">
+                              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                   <path
+                                        d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                              </svg>
+                              <span>已买到的宝贝</span>
+                         </a>
+                         <a href="" class="flex items-center gap-1">
+                              <svg class="w-4 h-4 fill-highlight" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                   <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                              </svg>
+                              <span>收藏夹</span>
+                         </a>
+                         <a href="" class="flex items-center gap-1">
+                              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                   <path
+                                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                              </svg>
+                              <span>帮助中心</span>
+                         </a>
+                    </div>
+                    <div class="flex items-center gap-4">
+                         <a href="/account.html">
+                              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                   <path
+                                        d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z" />
+                              </svg>
+                         </a>
+                         <a href="">
+                              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                   <path
+                                        d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                              </svg>
+                         </a>
+                         <button>
+                              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                   <path
+                                        d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                              </svg>
+                         </button>
+                    </div>
+               </div>
+          </div>
+          <div class="container max-w-[80rem] py-2">
+               <div class="flex items-center gap-20">
+                    <a href="" class="text-4xl font-bold tracking-wider">GS Link</a>
+                    <div class="flex basis-0 grow gap-2">
+                         <form class="flex items-center basis-0 grow gap-2 bg-white text-primary rounded-xl p-3">
+                              <label for="search">
+                                   <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                             d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                                   </svg>
+                              </label>
+                              <input id="search" type="text" class="w-full outline-none">
+                              <button type="reset">
+                                   <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                        <path
+                                             d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                                   </svg>
+                              </button>
+                         </form>
+                         <div class="rounded-xl bg-secondary p-3">
+                              <label for="image">
+                                   <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                             d="M149.1 64.8L138.7 96 64 96C28.7 96 0 124.7 0 160L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-74.7 0L362.9 64.8C356.4 45.2 338.1 32 317.4 32L194.6 32c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
+                                   </svg>
+                              </label>
+                              <input id="image" type="file" class="hidden">
+                         </div>
+                    </div>
+                    <a href="" class="font-bold rounded-full px-5 py-2 bg-spotlight">
+                         <p>天 天 浇 水 养 竹</p>
+                         <p class="flex items-center gap-2">
+                              <span>兑 换 惊 喜 好 礼</span>
+                              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                   <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                              </svg>
+                         </p>
+                    </a>
+               </div>
+               <nav class="flex items-center justify-center gap-5 text-highlight font-semibold text-base">
+                    <a href="" class="p-2">GS直播</a>
+                    <a href="/commodity.html" class="p-2">商品拍卖</a>
+                    <a href="/fourm.html" class="p-2">鉴宝论坛</a>
+                    <a href="" class="p-2">免费开店</a>
+                    <a href="" class="p-2">新春臻礼</a>
+               </nav>
+          </div>
+     </header>
+
+     <div class="container">
+          <div class="flex flex-wrap gap-6">
+               <aside class="flex gap-5 w-sm">
+                    <div class="basis-0 grow space-y-5">
+                         <div class="bg-spotlight rounded-xl p-5">
+                              <h2 class="font-semibold text-lg mb-3">分类</h2>
+                              <ul class="grid grid-cols-4 gap-3">
+                                   <li><a href="">摆件</a></li>
+                                   <li><a href="">项链</a></li>
+                                   <li><a href="">耳环</a></li>
+                                   <li><a href="">原石</a></li>
+                                   <li><a href="">手链</a></li>
+                                   <li><a href="">戒指</a></li>
+                                   <li><a href="">胸针</a></li>
+                                   <li><a href="">花瓶</a></li>
+                                   <li><a href="">耳钉</a></li>
+                                   <li><a href="">定制</a></li>
+                                   <li><a href="">售后</a></li>
+                                   <li><a href="">特价</a></li>
+                                   <li><a href=""></a></li>
+                                   <li><a href=""></a></li>
+                                   <li><a href=""></a></li>
+                                   <li><a href=""></a></li>
+                              </ul>
+                         </div>
+                         <div class="bg-spotlight rounded-xl overflow-hidden w-full">
+                              <img src="./assets/img/1/佛海报.jpg" alt="佛海报">
+                         </div>
+                    </div>
+                    <div class="w-40 space-y-5 font-semibold text-center">
+                         <div class="bg-spotlight rounded-xl px-5 py-3">
+                              <img src="./assets/img/1/蝴蝶手串.png" alt="蝴蝶手串" class="mx-auto object-cover">
+                              <a href="">
+                                   <h2>品类多样 产地优选</h2>
+                              </a>
+                         </div>
+                         <div class="bg-spotlight rounded-xl px-5 py-3">
+                              <img src="./assets/img/1/天鹅胸针.png" alt="天鹅胸针" class="mx-auto object-cover">
+                              <a href="/personalized.html">
+                                   <h2>个性化定制</h2>
+                              </a>
+                         </div>
+                         <div class="bg-spotlight rounded-xl px-5 py-3">
+                              <img src="./assets/img/1/68165986686115736.png" alt="天鹅胸针" class="mx-auto object-cover">
+                              <a href="">
+                                   <h2>专鱀家鉴定</h2>
+                              </a>
+                         </div>
+                    </div>
+               </aside>
+               <main class="basis-0 grow">
+                    <div class="relative">
+                         <h1 class="absolute right-5 top-1/2 -translate-y-1/2 w-full text-right text-3xl font-semibold">
+                              坚定中的浪漫<br>颗绿松石都是独一
+                         </h1>
+                         <img src="./assets/img/1/主页海报.jpg" alt="主页海报" class="rounded-xl h-44 object-cover">
+                    </div>
+                    <div class="flex flex-wrap w-full gap-4 mt-3">
+                         <div class="basis-0 grow">
+                              <nav class="flex items-center gap-3">
+                                   <button class="font-medium py-1 border-b-2">猜你喜欢</button>
+                                   <button class="py-1">绿松原石</button>
+                                   <button class="py-1">摆件</button>
+                                   <button class="py-1">链</button>
+                                   <button class="py-1">Ring</button>
+                                   <button class="py-1">Bracelet</button>
+                              </nav>
+                              <div class="grid grid-cols-4 gap-4 mt-3">
+                                   <div>
+                                        <img src="./assets/img/1/原石.jpg" alt="原石" class="rounded-xl h-40 object-cover">
+                                        <a href="/product.html">
+                                             <h4 class="font-semibold">天然原矿绿松石散矿</h4>
+                                        </a>
+                                        <div class="flex justify-between text-highlight">
+                                             <div>
+                                                  <p class="text-lg font-bold -mb-2">¥63.99</p>
+                                                  <span class="text-xs">New</span>
+                                             </div>
+                                             <div>
+                                                  <p class="text-white">1w+this</p>
+                                                  <span>专家监</span>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div>
+                                        <img src="./assets/img/2/天鹅胸针.jpg" alt="天鹅胸针" class="rounded-xl h-40 object-cover">
+                                        <a href="/product.html">
+                                             <h4 class="font-semibold">高瓷绿松石天鹅钻石胸针</h4>
+                                        </a>
+                                        <div class="flex justify-between text-highlight">
+                                             <div>
+                                                  <p class="text-lg font-bold -mb-2">¥20000</p>
+                                                  <span class="text-xs">New</span>
+                                             </div>
+                                             <div>
+                                                  <p class="text-white">50+this</p>
+                                                  <span>专家监</span>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div>
+                                        <img src="./assets/img/2/蝴蝶手串.jpg" alt="蝴蝶手串" class="rounded-xl h-40 object-cover">
+                                        <a href="/product.html">
+                                             <h4 class="font-semibold">原创小众设计串珠手链复古</h4>
+                                        </a>
+                                        <div class="flex justify-between text-highlight">
+                                             <div>
+                                                  <p class="text-lg font-bold -mb-2">¥188</p>
+                                                  <span class="text-xs">New</span>
+                                             </div>
+                                             <div>
+                                                  <p class="text-white">3w+this</p>
+                                                  <span>专家监</span>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div>
+                                        <img src="./assets/img/2/戒指.jpg" alt="戒指" class="rounded-xl h-40 object-cover">
+                                        <a href="/product.html">
+                                             <h4 class="font-semibold">暗纹绿松石铂金戒指</h4>
+                                        </a>
+                                        <div class="flex justify-between text-highlight">
+                                             <div>
+                                                  <p class="text-lg font-bold -mb-2">¥7566</p>
+                                                  <span class="text-xs">New</span>
+                                             </div>
+                                             <div>
+                                                  <p class="text-white">100+this</p>
+                                                  <span>专家监</span>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div>
+                                        <img src="./assets/img/1/花瓶.jpg" alt="花瓶" class="rounded-xl h-40 object-cover">
+                                        <a href="/product.html">
+                                             <h4 class="font-semibold">绿松石创意花瓶多种摆件</h4>
+                                        </a>
+                                        <div class="flex justify-between text-highlight">
+                                             <div>
+                                                  <p class="text-lg font-bold -mb-2">¥288</p>
+                                                  <span class="text-xs">New</span>
+                                             </div>
+                                             <div>
+                                                  <p class="text-white">5k+this</p>
+                                                  <span>专家监</span>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div>
+                                        <img src="./assets/img/2/钻石项链.jpg" alt="钻石项链" class="rounded-xl h-40 object-cover">
+                                        <a href="/product.html">
+                                             <h4 class="font-semibold">渐贔弯觴邊卫绿松石钻石项链</h4>
+                                        </a>
+                                        <div class="flex justify-between text-highlight">
+                                             <div>
+                                                  <p class="text-lg font-bold -mb-2">¥68888</p>
+                                                  <span class="text-xs">New</span>
+                                             </div>
+                                             <div>
+                                                  <p class="text-white">50+this</p>
+                                                  <span>专家监</span>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div>
+                                        <img src="./assets/img/1/毛衣项链.jpg" alt="毛衣项链" class="rounded-xl h-40 object-cover">
+                                        <a href="/product.html">
+                                             <h4 class="font-semibold">京创松间明月绿松石项链</h4>
+                                        </a>
+                                        <div class="flex justify-between text-highlight">
+                                             <div>
+                                                  <p class="text-lg font-bold -mb-2">¥568</p>
+                                                  <span class="text-xs">New</span>
+                                             </div>
+                                             <div>
+                                                  <p class="text-white">1w+this</p>
+                                                  <span>专家监</span>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div>
+                                        <img src="./assets/img/1/耳环.jpg" alt="耳环" class="rounded-xl h-40 object-cover">
+                                        <a href="/product.html">
+                                             <h4 class="font-semibold">绿松石曲线钻石耳钉</h4>
+                                        </a>
+                                        <div class="flex justify-between text-highlight">
+                                             <div>
+                                                  <p class="text-lg font-bold -mb-2">¥1288</p>
+                                                  <span class="text-xs">New</span>
+                                             </div>
+                                             <div>
+                                                  <p class="text-white">100+this</p>
+                                                  <span>专家监</span>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="bg-spotlight rounded-xl w-52 py-4 px-2 text-center space-y-2">
+                              <h2 class="font-semibold text-base">百亿补贴 买贵必赔</h2>
+                              <div>
+                                   <a href=""><img src="./assets/img/1/钻石项链.png" alt="钻石项链" class="px-4"></a>
+                                   <h3 class="text-highlight text-xl font-bold">¥68888</h3>
+                                   <p>火爆热卖中</p>
+                              </div>
+                              <div>
+                                   <a href=""><img src="./assets/img/1/戒指.png" alt="戒指" class="px-4"></a>
+                                   <h3 class="text-highlight text-xl font-bold">￥7566</h3>
+                                   <p>火爆热卖中</p>
+                              </div>
+                         </div>
+                    </div>
+               </main>
+          </div>
+     </div>
+</body>
+
+</html>

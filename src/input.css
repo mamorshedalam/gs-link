@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #174032;
+  --color-secondary: #416152;
+  --color-spotlight: #105f63;
+  --color-highlight: #edd784;
+  --color-gray: #9eaaa6;
+  --color-light: #8dc4bf;
+}
+
+@utility container {
+  @apply xl:max-w-[96rem] mx-auto px-4;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen bg-primary text-white text-sm;
+  }
+  button,
+  a {
+    @apply inline-block cursor-pointer;
+  }
+  svg {
+    @apply fill-current;
+  }
+  img {
+    @apply w-full h-auto;
+  }
+}
