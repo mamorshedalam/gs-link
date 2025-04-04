@@ -345,8 +345,20 @@
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
+  .h-96 {
+    height: calc(var(--spacing) * 96);
+  }
   .h-\[25rem\] {
     height: 25rem;
+  }
+  .h-\[370px\] {
+    height: 370px;
+  }
+  .h-\[375px\] {
+    height: 375px;
+  }
+  .h-\[380px\] {
+    height: 380px;
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
